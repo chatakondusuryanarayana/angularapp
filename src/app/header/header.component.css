@@ -1,0 +1,17 @@
+.header{
+    border: 2px black solid ;
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+}
+.name{
+    display: inline;
+    position: absolute;
+    margin-left: 200px;
+}
+.name1{
+    padding-top: 50px;
+    display: inline;
+    position:absolute;
+    margin-left: 200px;
+}

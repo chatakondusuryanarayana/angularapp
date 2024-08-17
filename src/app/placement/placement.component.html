@@ -1,0 +1,63 @@
+<form action="#" method="post" #myform="ngForm" (ngSubmit)="saveForm(myform.value)">
+    <div class="card">
+        <div class="card">
+            <div class="row d-flex justify-content-between" >
+                <div class="form-check col-3">
+                    <input class="form-check-input position-static radio" type="radio" id="blankCheckbox" value="google" aria-label="..." name="company" ngModel>
+                    <label for="google">Google</label>
+                </div>
+                <div class="col-6">
+                    <p>Data Science</p>
+                </div>
+                <div class="col-3">
+                    <p>Salary 20Lakhs CTC</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row d-flex justify-content-between" >
+                <div class="form-check col-3">
+                    <input class="form-check-input position-static radio" type="radio" id="blankCheckbox" value="Amazon" aria-label="..." name="company" ngModel>
+                    <label for="Amazon">Amazon</label>
+                </div>
+                <div class="col-6">
+                    <p>Data Science</p>
+                </div>
+                <div class="col-3">
+                    <p>Salary 20Lakhs CTC</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row d-flex justify-content-between" >
+                <div class="form-check col-3">
+                    <input class="form-check-input position-static radio" type="radio" id="blankCheckbox" value="JP Morgan" aria-label="..." name="company" ngModel>
+                    <label for="JP Morgan">JP Morgan</label>
+                </div>
+                <div class="col-6">
+                    <p>Data Science</p>
+                </div>
+                <div class="col-3">
+                    <p>Salary 20Lakhs CTC</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row d-flex justify-content-between" >
+                <div class="form-check col-3">
+                    <input class="form-check-input position-static radio" type="radio" id="blankCheckbox" value="IBM" aria-label="..." name="company" ngModel>
+                    <label for="JP IBM">IBM</label>
+                </div>
+                <div class="col-6">
+                    <p>Data Science</p>
+                </div>
+                <div class="col-3">
+                    <p>Salary 20Lakhs CTC</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+</form>
